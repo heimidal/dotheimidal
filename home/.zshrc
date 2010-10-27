@@ -19,7 +19,7 @@ export ZSH_THEME="heimidal"
 plugins=(git rails textmate ruby)
 
 source $ZSH/oh-my-zsh.sh
+export PATH=$PATH:/opt/jruby/bin
 
-
-
+unsetopt auto_name_dirs
 [[ -s $HOME/.rvm/scripts/rvm ]] && source $HOME/.rvm/scripts/rvm
